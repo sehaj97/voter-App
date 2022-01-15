@@ -1,28 +1,20 @@
 {
-  "name": "voter-app",
+  "name": "vote-api",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "jest"
+  "description": "Back-end APIs for a voting app.",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sehaj97/voter-App.git"
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sehaj97/voter-App/issues"
-  },
-  "homepage": "https://github.com/sehaj97/voter-App#readme",
-  "dependencies": {
-    "express": "^4.17.2",
-    "mysql2": "^2.3.3",
-    "jest": "^27.4.7"
-  },
   "devDependencies": {
-    "jest": "^27.4.7"
+    "jest": "^26.6.3"
   }
 }
